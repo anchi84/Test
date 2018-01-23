@@ -1,10 +1,22 @@
 """Flask app."""
 
-from flask import Flask
+# Priprema radnog okruzenja
+"""
+virtualenv venv
+venv\Scripts\activate.bat
+pip install -r pips.txt
+"""
+# Pokretanje aplikacije
+"""
+venv\Scripts\activate.bat
+set FLASK_APP=app.py
+flask run
+"""
+
+from flask import Flask, render_template
 from models import *
 
 app = Flask(__name__)
-
 
 @app.route("/")
 def index():
@@ -27,20 +39,8 @@ def index():
 
 @app.route("/comments")
 def comments():
-    """Home route handler."""
-    page = """
-    <!DOCTYPE html>
-    <html>
+    """/comments route handler."""
+    return render_template('result.html', array = COMMENTS)
 
-    <head>
-        <title>Comment</title>
-    </head>
-
-    <body>
-        {}
-    </body>
-
-    </html>
-    """
-    table = table()
-    return page.format(table)
+# if __name__ == '__main__':
+#    app.run(debug = True)
