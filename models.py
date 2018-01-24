@@ -11,7 +11,7 @@ class Comment(object):
         return "Comment: {}, Date: {}".format(self.text, self.date)
 
     # def table(self):
-    #     """Return users as HTML table."""
+    #     """Return comments as HTML table."""
     #     table_str = "<table>"
     #     table_str += '<tr><th>Comment</th>><th>Date</th></tr>'
 

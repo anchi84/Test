@@ -3,11 +3,11 @@
 03. URL (Uniform Resource Locator) je putanja (lokacija) do određenog sadržaja na Internetu te se naziva i Web adresa.
 04. HTTP (HyperText Transfer Protocol)  je protokol - dogovor za komunikaciju između servera i klijenta, koji funkcioniše po principu zahtev/odgovor. HTTP klijent, koji je najčešće web pregledač, inicira prenos podataka nakon što uspostavi TCP/IP vezu s udaljenim web-serverom na određenom portu.
 05. RESTful API je aplikativni programski interfejs koji koristi HTTP zahteve za GET, PUT, POST i DELETE podatke.
-RESTful API, takođe nazvan RESTful web servis, zasniva se na tehnologiji reprezentacije prenosa podataka (REST), arhitektonskom stilu i pristupu komunikacijama često korišćenim u razvoju web servisa.
+RESTful API, takođe nazvan RESTful web servis, zasniva se na tehnologiji reprezentacije prenosa podataka (REST), arhitektonskom stilu i pristupu komunikacijama često korišćenim u razvoju web servisa.
 06. HTTP metode:  POST, GET, PUT, PATCH, DELETE, OPTIONS, HEAD.
 07. DNS (Domain Name System) je sistem koji prevodi imena računara (hostnames) u IP adrese (broj).
-08. Private IP adrese su potpuno odvojeni skupovi adresa koje omogućavaju pristup mreži, ali bez zauzimanja javnog prostora IP adresa. One ne mogu da učestvuju u internet saobraćaju (kao polazna, ni kao odredišna adresa), pa se široko koriste zbog nedostatka adresa koje mogu da se registruju.
-09.  AJAX (Asinhroni JavaScript i XML)  je grupa međusobno povezanih tehnologija za razvoj web-a korišćenih na klijentskoj strani za pravljenje sinhronih i asinhronih web aplikacija. Korišćenjam Ajaksa web aplikacije mogu da šalju i primaju podatke sa servera asinhrono (u pozadini) bez menjanja trenutnog prikaza i ponašanja stranice.
+08. Private IP adrese su potpuno odvojeni skupovi adresa koje omogućavaju pristup mreži, ali bez zauzimanja javnog prostora IP adresa. One ne mogu da učestvuju u internet saobraćaju (kao polazna, ni kao odredišna adresa), pa se široko koriste zbog nedostatka adresa koje mogu da se registruju.
+09. AJAX (Asinhroni JavaScript i XML) je grupa međusobno povezanih tehnologija za razvoj web-a korišćenih na klijentskoj strani za pravljenje sinhronih i asinhronih web aplikacija. Korišćenjam Ajax-a web aplikacije mogu da šalju i primaju podatke sa servera asinhrono (u pozadini) bez menjanja trenutnog prikaza i ponašanja stranice.
 10. TCP/IP je skup protokola razvijen da omogući umreženim računarima da dele resurse putem mreže.
 11. Keš memorija je memorija malog kapaciteta koja služi za zapis - čuvanje podataka koji se često koriste.
 12. Klasa je nacrt ili šablon iz kojega se objekti kreiraju. Objekat je instanca - primerak klase.
