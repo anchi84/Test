@@ -11,6 +11,10 @@ pip install -r pips.txt
 venv\Scripts\activate.bat
 set FLASK_APP=app.py
 flask run
+
+http://127.0.0.1:5000/
+http://127.0.0.1:5000/comments
+http://127.0.0.1:5000/api/v1.0/comments
 """
 
 from flask import Flask, render_template, jsonify
