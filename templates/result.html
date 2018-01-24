@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+    <html>
+
+    <head>
+        <title>Comment</title>
+    </head>
+
+    <body>
+       <table border = 1>
+         {% for c in array: %}
+            <tr>
+               <th> {{ c.text }} </th>
+               <td> {{ c.date }} </td>
+            </tr> 
+         {% endfor %}
+      </table>
+    </body>
+
+    </html>
