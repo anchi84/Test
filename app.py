@@ -13,7 +13,7 @@ set FLASK_APP=app.py
 flask run
 """
 
-from flask import Flask, render_template
+from flask import Flask, render_template, jsonify
 from models import *
 
 app = Flask(__name__)
@@ -44,3 +44,15 @@ def comments():
 
 # if __name__ == '__main__':
 #    app.run(debug = True)
+
+@app.route('/api/v1.0/comments', methods=['GET'])
+def api_comments():
+    """Handle HTTP GET Request for the comments API endpoint."""
+    result = []
+    for comment in COMMENTS:
+        comment_dict = {
+            "TEXT": comment.text,
+            "DATE": comment.date
+        }
+        result.append(comment_dict)
+    return jsonify({'comments': result}) # ovo zahteva da je uradjeno `from flask import jsonify`
