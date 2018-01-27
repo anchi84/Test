@@ -6,9 +6,9 @@
     </head>
         
     <body>
-        <form>
-          <iframe src="http://127.0.0.1:5000/comments"></iframe>
+        <form action="http://127.0.0.1:5000/comments" target="responseFrame">
+            <input type="submit" value="Get Comments">
         </form>
+        <iframe name="responseFrame" frameBorder="0"></iframe>    
     </body>
-
     </html>
